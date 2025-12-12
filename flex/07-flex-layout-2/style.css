@@ -35,25 +35,59 @@ body {
 .cardContainer{
   display: flex;
   flex-direction: column;
+
+  margin-left: 32px;
+  margin-top: 40px;
+  
   flex-grow: 1;
+  flex-wrap: wrap-reverse;
+  
 }
 
 .cardTop{
   display: flex;
+  
 }
 
 
 .cardBottom{
   display: flex;
+  margin-top: 32px;
 }
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 32px;
+
+
+  width: 250px;
+  height: 250px;
+
+  margin-right: 32px;
+
+  text-wrap: wrap;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .sidebar {
   width: 300px;
   background: royalblue;
   align-items: flex-start;
 
-  flex-grow: 1;
-  flex-shrink: 0;
+
 }
 
 .sidebar ul{
@@ -101,10 +135,5 @@ body {
 
 
 
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-}
 
 
